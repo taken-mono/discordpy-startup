@@ -1,8 +1,10 @@
 #coding:UTF-8
 import discord
+import os
 from datetime import datetime
 from discord.ext import tasks
 
+token = os.environ['DISCORD_BOT_TOKEN']
 TOKEN = token #トークン
 CHANNEL_ID = 673354597816860745 #チャンネルID
 # 接続に必要なオブジェクトを生成
